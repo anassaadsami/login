@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>test end points</title>
+</head>
+<body >
+    <nav>
+        <button class="hidden" id="nv-all-cars">All Cars</button>
+        <button  id="nv-log-in">Log in <span class="material-icons">login</span></button>
+        <button class="hidden" id="nv-bookings">My Bookings</button>
+        <button class="hidden" id="nv-log-out">Log out <span class="material-icons">logout</span></button>
+    </nav>
+    <div id="main">
+        <div id="home">
+            <h1>Welcome To TW-Rental</h1>
+        </div>
+        <div id="log-in-form" class="hidden">
+            <div id="login-form">
+                <div class="item" id="lf-username">
+                    <p>User name</p>
+                    <input type="text" name="username" id="username-field" placeholder="test">
+                </div>
+                <div class="item" id="lf-pass">
+                    <p>Password</p>
+                    <input type="password" name="password" id="password-field" placeholder="test">
+                </div>
+                <button id="lf-btn">Log in</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+    <!-- <script src="./assets//js/loginHandler.js"></script> -->
+</body>
+</html>

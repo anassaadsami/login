@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #c7c7c7;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+
+nav button{
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    height: 30px;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+nav button:hover{
+    background: #1dff083b;
+}
+
+nav button span{
+    color: rgb(5, 84, 8);
+}
